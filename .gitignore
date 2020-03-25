@@ -1,3 +1,31 @@
+# git
+git/.*
+!/.gitignore
+!/.github
+!/.jscsrc
+!/.jshintrc
+!/.travis.yml
+/bower_components/
+/generated-docs/
+/node_modules/
+/output/
+/.psci_modules/
+/.purs-repl
+/.spago
+
+
+# Emacs
+# -*- mode: gitignore; -*-
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+
 # Logs
 logs
 *.log
