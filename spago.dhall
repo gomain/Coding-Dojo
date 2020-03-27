@@ -10,6 +10,8 @@ You can edit this file as you like.
   , "foldable-traversable"
   , "tuples"
   , "arrays"
+  , "generics-rep"
+  , "ordered-collections"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
